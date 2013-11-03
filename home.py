@@ -10,7 +10,7 @@ if gender = male:
 	print "Oh, a boy, I see."
 
 philosophy = raw_input("What would of the following would you say is your
-life's philosophy? Be kind to all, do the most with the least effort,
+life philosophy? Be kind to all, do the most with the least effort,
 or money is everything?")
 
 if philosophy = Be kind to all:
