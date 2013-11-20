@@ -1,7 +1,10 @@
+character1 = {'Name': 'Palace Scribe', 'Gender': 'Male', 'Role': 'Documenting the life of the king'}; 
+character2 = {'Name': 'Bar Maid', 'Gender': 'Female', 'Role': 'Serving beer to the king'};
+
 name = raw_input("Welcome to our Medieval Python RPG. To get this adventure started, please tell me your name. ")
 print "So your name is %s." % name
 
-gender = raw_input("Are you a male or female?") 
+gender = raw_input("Are you going to be a male or female in this game?") 
 
 if 'Female' in gender:
     print "Oh, you're a girl! You are a bar maid with an attitude. After recently being homeless on the streets of Karflooglesville, you are now working for the royal family. In particular, your duty is to serve the king his favorite alcoholic beverages. Today, the King has gotten sick of your beer-serving abilities. For some reason, you are off your game and he insists that the beverage is simply too flat, it tastes unbearable, and the smell is too sweet for his senses. In return, you inform the King that his breath is unbearable and you are sent to the dungeon."
@@ -13,6 +16,9 @@ answer = raw_input("Do you speak up or comply?")
 
 if 'Speak up' in answer: 
 	print "The King goes into a rage and send you to solitary confinement."
+if 'Comply' in answer: 
+	print "Really? You will let such a defiant moment pass?"
+	import home.py
 
 	
 	
