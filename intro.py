@@ -1,7 +1,7 @@
 character1 = {'Name': 'Palace Scribe', 'Gender': 'Male', 'Role': 'Documenting the life of the king'}; 
 character2 = {'Name': 'Bar Maid', 'Gender': 'Female', 'Role': 'Serving beer to the king'};
 
-name = raw_input("Welcome to our Medieval Python RPG. To get this adventure started, please tell me your name. ")
+name = raw_input("Welcome to our Medieval Python RPG. To get this adventure started, please tell me your name.")
 print "So your name is %s." % name
 
 gender = raw_input("Are you going to be a male or female in this game?") 
