@@ -8,10 +8,6 @@ print "As a result of your actions, you’re sent to the dungeon to think about 
 
 action = raw_input("What will you do in this dank and lonely cell? Break out or stay dank and lonely?")
 
-if 'Stay dank and lonely' in action:
-  print "If you wish..."
-  import scribe_level1.py
-    
 if 'Break out' in action:
   print "Excellent! You take out your handy dandy quill and begin lockpicking the door."
   lockpick = raw_input("Do you turn your quill to the right or the left first?") 
@@ -25,6 +21,11 @@ if 'Break out' in action:
               import scribe_level1.py
           if 'Door two' in door:
             print "Fresh, clean air! You are free, Palace Scribe!" 
+            import scribe_level2.py
+
+else:
+  print "If you wish..."
+  import scribe_level1.py
         
   
 
