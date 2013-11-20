@@ -19,7 +19,7 @@ if 'Speak up' in answer:
 	import level1.py
 if 'Comply' in answer: 
 	print "Really? You will let such a defiant moment pass?"
-	import home.py
+	import intro.py
 
 	
 	
