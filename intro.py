@@ -13,7 +13,7 @@ answer = raw_input("Do you speak up or comply?")
 
 if 'Speak up' in answer:
         print " The King goes into a rage and send you to solitary confinement."
-	import level1.py
+	import scribe_level1.py
 if 'Comply' in answer: 
 	print "Really? You will let such a defiant moment pass?"
 	import intro.py
