@@ -4,7 +4,7 @@ scribe_level1 = ['dungeon', 'door one', 'door two'];
 
 print "Chapter 1: Breakin' Bad Habits" 
 
-print "As a result of your actions, you’re sent to the dungeon to think about the smack that you've talked to the King.\n"
+print "As a result of your actions, you’re sent to the dungeon to think about what you've done.\n"
 
 action = raw_input("What will you do in this dank and lonely cell? Break out or stay dank and lonely?\n")
 if 'Stay dank and lonely' in action:
