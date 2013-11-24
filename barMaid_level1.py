@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 character2 = {'Name': 'Bar Maid', 'Gender': 'Female', 'Role': 'Serving alcoholic beverages to the king'};
 
 barMaid_level1 = ['dungeon', 'cell', 'window'];
