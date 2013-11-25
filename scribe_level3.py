@@ -1,4 +1,4 @@
-print "Chapter 1: Breakin' Bad Habits" 
+print "Chapter 3: Hung Jury" 
 
 print "You realize that you’re not cut out for a life on the run, 
 so you decide to head back to the palace and stand trial. As the judge concludes your charges, you stand
