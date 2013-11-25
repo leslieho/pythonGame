@@ -2,7 +2,7 @@ print "Chapter 3: Hung Jury"
 
 print "You realize that you’re not cut out for a life on the run, 
 so you decide to head back to the palace and stand trial. As the judge concludes your charges, you stand
-and defiantly plead "Not Guilty"\n"
+and defiantly plead 'Not Guilty'\n"
 
 action = raw_input("What is your argument? Do you claim you were taking notes in such a way to establish a new metadata scheme
 and usher in the educational practice of information science OR do you claim your experiences 
