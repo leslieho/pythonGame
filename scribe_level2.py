@@ -15,8 +15,18 @@ if 'heal her cut with your magical quill' in pain_response:
 		print "You proceed to tell her you will do everything you can to protect her and the village.  She exclaims with appreciation and gives you a hug and a kiss.  She embarassingly thanks you and leads you to the blacksmith to help you fight the beast.  You greet the blacksmith.  The blacksmith grunts, looks you over, and laughs.  He asks you what you would prefer, " + "\"suit of armor\"" + " or " + "\"simple sword\""+"?"
 		blacksmith_response = raw_input()
 		if 'suit of armor' in blacksmith_response:
-			print "The blacksmith laughs, creates a suit of armor for you, and you can barely walk.  The 					blacksmith laughs as you fall to the ground.  He bids you good luck and you slowly leave the blacksmith.  You travel to the cave where the beast is located.  Do you "\"enter the cave\"" or"
-
+			print "The blacksmith laughs, creates a suit of armor for you, and you can barely walk.  The 					blacksmith laughs as you fall to the ground.  He bids you good luck and you slowly leave the 			blacksmith.  You travel to the cave where the beast is located.  Do you" + "\"enter the cave bravely\"" 			+" or "+ "\"hesitate\"" +"?"
+			cave_response = raw_input()
+			if 'enter  the cave bravely' in cave_response:
+				print "You walk into the dark cave.  You hear growling and all of a sudden, a fireball rushes your way.  The fireball hits your armor and you get flung backwards.  You get up as fast as you can in the heavy suit of armor.  You ball up your armored fist.  Do you "+'\'hit left\''+' or '+'\'hit right\''?
+				swing_response = raw_input()
+				if 'swing left' in swing_response:
+					print 'Yikes, you missed the beast.  Looks like you have to swing again.'
+		if 'simple sword' in blacksmith_response:
+			print 'The blacksmith smiles, creates a sword of magestic proportions, and gives it to you.  He 				calls you brave and bids you good luck.  You leave the blacksmith and travel to the cave 				where the beast is located. Do you" + "\"enter the cave\"" +" or "+ "\"hesitate\'' 			+"?"
+			cave1_response = raw_input()
+			if 'enter the cave' in cave1_response:
+				
 else:
 	print " "
 	print "She says " +"\"HMPH\""+" and runs away crying." 
