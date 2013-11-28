@@ -1,4 +1,4 @@
-''' Python
+''' 
 print "Welcome to Chapter 2: The Forest of Love!" 
 print " "
 print "You have successfully escaped from your cell! But you are being chased by the palace guards. You run for your life and end up crashing into a lovely maiden."
