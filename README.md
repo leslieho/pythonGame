@@ -19,8 +19,10 @@ scribe_level1.py: The python file that contains the code for the Scribe's versio
 ```
 
 
-### To Collaborators
+### To Future Contributors
 The game is built with Python and has been tested with Ubuntu and ideone.com. Interested in the project? Want to collaborate with us? The game's content copyright 2013 Olivia Dorsey, Leslie Ho, and James Greer under a license. 
+
+What to bring a bug or request a feature for pythonGame? Please do so by reading our contributor guidelines and then opening an issue. 
 
 ### Future Direction for pythonGame
 We intend for the game to include more levels. We would also like to use Flaskr in order to eventually house our project and successfully integrate it with HTML and CSS via Skulpt so that it appears to the user in a more aesthetically-pleasing format. 
