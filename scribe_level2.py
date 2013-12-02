@@ -33,7 +33,7 @@ if 'heal cut with magical quill' in pain_response:
                                                 chapter3_response=raw_input("Would you like to continue to chapter 3," + '\' yes$
                                                 if 'yes' in chapter3_response:                                                        import scribe_level3
  if 'no' in chapter3_response:
-                                                        print 'You have ended the game! Congratulations hero!'
+                print 'You have ended the game! Congratulations hero!'
                 if 'simple sword' in blacksmith_response:
                         print 'The blacksmith smiles, creates a sword of magestic proportions, and gives it to you.  He calls yo$
                         cave1_response = raw_input("Do you" + "\"enter the cave\"" +" or "+ "\"hesitate\''+"?")
