@@ -25,7 +25,7 @@ scribe_level3. py: The python file that contains the code for the Scribe's versi
 
 
 ### To Future Contributors
-The game is built with Python and has been tested with Ubuntu and ideone.com. Interested in the project? Want to collaborate with us? The game's content copyright 2013 Olivia Dorsey, Leslie Ho, and James Greer under a license. 
+The game is built with Python and has been tested with Ubuntu and ideone.com. Interested in the project? Want to collaborate with us? The game's content copyright 2013 Olivia Dorsey, Leslie Ho, and James Geer under a license. 
 
 What to bring a bug or request a feature for pythonGame? Please do so by reading our contributor guidelines and then opening an issue. 
 
