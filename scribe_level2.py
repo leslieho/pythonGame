@@ -51,6 +51,34 @@ if 'heal cut with magical quill' in pain_response:
 						if 'no' in chapter3_response:
 							print " "
 							print 'You have ended the game! Congratulations hero!'
+			if 'hesitate' in cave_response:
+				print " "
+				print "While you hesitate, the beast comes out of the cave and claws your armor.  You have a gash across your chest from the blow.  Your armor is in shards of metal beside you. You take a shard of metal and use it as a weapon."
+				weapon_response=raw_input("Do you use the shard of metal as a" + '\' sword\'' + ' or a ' + '\'throwing weapon\''+'?')
+				if 'sword' in weapon_response:
+					print " "
+					print "You use the metal shard as a sword.  As you swing left and right, the beast comes closer and closer.  You use the sword to deflect the fire the beast is blowing your way.  With your last ounce of strength, you thrust the metal shard into the beast.  You have killed the beast!"
+					print " "
+					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"  
+					print " "
+					chapter3_response=raw_input("Would you like to continue to chapter 3," + '\' yes\'' + ' or ' + '\'no\''+'?')
+					if 'yes' in chapter3_response:
+						import scribe_level3
+					if 'no' in chapter3_response:
+						print " "
+						print 'You have ended the game!'
+				if 'throwing weapon' in weapon_response:
+					print " "
+					print "You use the metal shard as a throwing weapon. Since you have so many metal shards, you throw furiously at the beast.  The beast is dodging all of your shards!  As you come down to your last metal shard, you throw with all of your might.  The shard hits the beast's eye, and the trauma kills the beast!"
+					print " "
+					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"  
+					print " "
+					chapter3_response=raw_input("Would you like to continue to chapter 3," + '\' yes\'' + ' or ' + '\'no\''+'?')
+					if 'yes' in chapter3_response:
+						import scribe_level3
+					if 'no' in chapter3_response:
+						print " "
+						print 'You have ended the game!'
 		if 'simple sword' in blacksmith_response:
 			print " "
 			print 'The blacksmith smiles, creates a sword of magestic proportions, and gives it to you.  He calls you brave and bids you good luck.  You leave the blacksmith and travel to the cave where the beast is located.'
@@ -94,8 +122,38 @@ if 'heal cut with magical quill' in pain_response:
 						if 'no' in chapter3_response:
 							print " "
 							print 'You have ended the game! Congratulations hero!'
+			if 'hesitate' in cave_response:
+				print " "
+				print "While you hesitate, the beast comes out of the cave and claws you across the chest. You frantically grab for your sword, but you realize that the measly sword is defenseless by itself against the gigantic beast.  You decide to combine the sword with the magic from the beer mug."
+				weapon_response=raw_input("Do you use the magical sword as a" + '\'offensive weapon\'' + ' or a ' + '\'defensive weapon\''+'?')
+				if 'sword' in weapon_response:
+					print " "
+					print "You use the magical sword as a offensive weapon.  As you swing left and right, the beast comes closer and closer.  You use the sword to hit the beast. The beast is now infuriated and fights even more angrily. You fight back and forth.  With your last blow to the beast, you swing with all your strength and kill the beast!"
+					print " "
+					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"  
+					print " "
+					chapter3_response=raw_input("Would you like to continue to chapter 3," + '\' yes\'' + ' or ' + '\'no\''+'?')
+					if 'yes' in chapter3_response:
+						import scribe_level3
+					if 'no' in chapter3_response:
+						print " "
+						print 'You have ended the game!'
+				if 'throwing weapon' in weapon_response:
+					print " "
+					print "You use the magical sword as a shield. You manage to deflect each fire blow from the beast.  As the beast runs out of breath from his firebreathing, you aim the shield directly at the beast.  As the beast breathes fire your way, the fire is deflected right back towards him and the beast is killed!"
+					print " "
+					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"  
+					print " "
+					chapter3_response=raw_input("Would you like to continue to chapter 3," + '\' yes\'' + ' or ' + '\'no\''+'?')
+					if 'yes' in chapter3_response:
+						import scribe_level3
+					if 'no' in chapter3_response:
+						print " "
+						print 'You have ended the game!'
 else:
 	print "She says " +"\"HMPH\""+" and runs away crying."
+	print " "
+	print "Because you chose to be a terrible person and let a beautiful maiden run away crying, 		you get caught by the palace guards and get returned to the palace!"
 	print " "
 	chapter3final_response=raw_input('Would you like to continue to the next chapter?')
 	if 'yes' in chapter3final_response:
