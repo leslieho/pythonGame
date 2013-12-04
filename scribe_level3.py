@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 print "Chapter 3: Hung Jury" 
 
 print "You realize that you’re not cut out for a life on the run, 
