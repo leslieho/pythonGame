@@ -10,7 +10,7 @@ print "As a result of your actions, you’re sent to the dungeon to think about 
 action = raw_input("What will you do in this dank and lonely cell? Break out or stay dank and lonely?\n")
 if 'Stay dank and lonely' in action:
   print "If you wish..."
-  import barMaid_level1.py
+  import barmaid_level1.py
 
 if 'Break out' in action:
   print "Excellent!"
@@ -24,18 +24,18 @@ if 'Break out' in action:
 location = raw_input("Now that you've dusted off shards of glass while remaining unharmed, where will you go? To the nearby forest, or back to the palace?\n")
 if 'Forest' in location: 
   	print "Onward to the next level!" 
-  	import barMaid_level2.py
+  	import barmaid_level2.py
 if 'Palace' in location:
   	print "What are you doing?! You can't go back there, the King'll have your head for sure!"
   	decision = raw_input("Do you really want to go back?\n")
 	if 'Yes' in decision:
   		print "The King spots you sneaking across the grounds while he is on one of his evening strolls. He is merciful and sends you back to the dungeon."
-  		import barMaid_level1.py
+  		import barmaid_level1.py
   	if 'No' in decision:
   		print "Good. I knew you were wiser than that."
     	location = raw_input("Now that you've dusted off shards of glass while remaining unharmed, where will you go? To the nearing forest, or back to the palace?\n")
   	if 'Forest' in location: 
-  			import barMaid_level2.py
+  			import barmaid_level2.py
  
     
   
