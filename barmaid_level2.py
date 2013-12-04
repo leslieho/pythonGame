@@ -78,7 +78,7 @@ if 'heal cut with magical beer mug' in pain_response:
 					if 'no' in chapter3_response:
 						print " "
 						print 'You have ended the game!'
-			if 'spiked hammer' in blacksmith_response:
+		if 'spiked hammer' in blacksmith_response:
 			print " "
 			print 'The blacksmith smiles, creates a spiked hammer of magestic proportions, and gives it to you.  He calls you brave and bids you good luck.  You leave the blacksmith and travel to the cave where the beast is located.'
 			print " "
