@@ -6,6 +6,13 @@ This is the readme for pythonGame, a text-based "Create Your Own Adventure" Game
 
 
 ### How To Play
+First make sure that you have a Linux machine in order to run the program. In order to start the game, you should do the following command:
+
+```python
+python intro.py
+```
+
+This will begin the game.
 
 ### Forking!
 After forking our repo, you'll get the following:
