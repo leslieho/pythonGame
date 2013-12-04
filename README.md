@@ -1,8 +1,6 @@
 ###pythonGame
 
-This is the readme for pythonGame, a text-based "Create Your Own Adventure" Game that is to be playable for those ages 13 and up. It was created as a part of a final project for INLS 560: Programming for Information Professionals at UNC Chapel Hill.
-
-### The Storyline
+This is the readme for pythonGame, a text-based Medieval "Create Your Own Adventure" Game that is to be playable for those ages 13 and up. It was created as a part of a final project for INLS 560: Programming for Information Professionals at UNC Chapel Hill.
 
 
 ### How To Play
