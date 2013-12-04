@@ -1,4 +1,3 @@
-'''
 print "Welcome to Chapter 2: The Forest of Love!" 
 print " "
 print "You have successfully escaped from your cell! But you are being chased by the palace guards. You run for your life and end up crashing into a handsome lad."
@@ -79,7 +78,7 @@ if 'heal cut with magical beer mug' in pain_response:
 					if 'no' in chapter3_response:
 						print " "
 						print 'You have ended the game!'
-			if 'spiked hammer' in blacksmith_response:
+		if 'spiked hammer' in blacksmith_response:
 			print " "
 			print 'The blacksmith smiles, creates a spiked hammer of magestic proportions, and gives it to you.  He calls you brave and bids you good luck.  You leave the blacksmith and travel to the cave where the beast is located.'
 			print " "
@@ -161,4 +160,3 @@ else:
 	if 'no' in chapter3final_response:
 		print " "
 		print 'You have ended the game!'
-'''	

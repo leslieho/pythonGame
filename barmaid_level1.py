@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 character2 = {'Name': 'Bar Maid', 'Gender': 'Female', 'Role': 'Serving alcoholic beverages to the king'};
 
-barMaid_level1 = ['dungeon', 'cell', 'window'];
+barmaid_level1 = ['dungeon', 'cell', 'window'];
 
 print "Chapter 1: Breakin' Bad Habits"
 

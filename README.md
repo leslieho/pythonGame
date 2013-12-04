@@ -10,11 +10,16 @@ This is the readme for pythonGame, a text-based "Create Your Own Adventure" Game
 ### Forking!
 After forking our repo, you'll get the following:
 ```
+LICENSE.md: Our license 
 README.md: This document that explains the ins and outs of pythonGame!
-barMaid_level1.py: The python file that contains the code for the Bar Maid's version of Level 1.
+barmaid_level1.py: The python file that contains the code for the Bar Maid's version of Level 1.
+barmaid_level2.py: The python file that contains the code for the Bar Maid's version of Level 2. 
+barmaid_level3.py: The python file that contains the code for the Bar Maid's version of Level 3. 
 intro.py: The python file that begins the game. It contains the exposition for the game. 
 outline.md: A markdown file that details the storyline of the game. 
 scribe_level1.py: The python file that contains the code for the Scribe's version of Level 1.
+scribe_level2.py: The python file that contains the code for the Scribe's version of Level 2.
+scribe_level3. py: The python file that contains the code for the Scribe's version of Level 3. 
 
 ```
 
