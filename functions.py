@@ -1,6 +1,116 @@
-def player_input(prompt, a, b):
-	"this prompts the player with the choices for the game"
-	print "Prompt: ", prompt;
-	print "Choice 1: ", a;
-	print "Choice 2: ", b;
-	
+# INTRODUCTION LEVEL 
+player_input(prompt, choices_list);
+player[choice] = player_input("Are you going to be a male or a female in this game?", ["Female", "Male"]\n) 
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
+# INTRODUCTION LEVEL 
+player_input(prompt, choices_list);
+player[choice] = player_input("Do you speak up or comply?", ["Speak up", "Comply"]\n) 
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
+# SCRIBE LEVEL 1 
+player_input(prompt, choices_list);
+player[choice] = player_input("What will you do in this dank and lonely cell?", ["Break out", "Stay dank and lonely"]\n)
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
+player_input(prompt, choices_list);
+player[choice] = player_input("Do you turn your quill to the right or the left first?", ["Right", "Left"]) 
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
+player_input(prompt, choices_list);
+player[choice] = player_input("Which door do you choose to leave from? Door one or door two?", ["Door one", "Door two"]) 
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
+#BAR MAID LEVEL 1 
+player_input(prompt, choices_list);
+player[choice] = player_input("What will you do in this dank and lonely cell?", ["Break out", "Stay dank and lonely"]\n) 
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
+player_input(prompt, choices_list);
+player[choice] = player_input("But how will you break out?", ["Break down door", "Break window"]\n)
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
+player_input(prompt, choices_list);
+player[choice] = player_input("Where will you go?", ["Forest", "Palace"]\n) #Input asking the user if he/she wants to break out of the cell (and thus play the game) or not 
+input =""
+
+print prompt 
+print "Your Choices Are:"
+
+for choice in choices_list:
+    print choice
+
+while input not in choices_list:
+    input = raw_input("What is your choice? \n")
+return input
+
