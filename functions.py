@@ -11,6 +11,7 @@ for choice in choices_list:
 
 while input not in choices_list:
     input = raw_input("What is your choice? \n")
+    
 return input
 
 # INTRODUCTION LEVEL 
