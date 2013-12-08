@@ -27,7 +27,7 @@ while character2['Level'] == 'barmaid_level1':
   			print "Onward to the next level!" 
   			import barmaid_level2.py
 		if 'Palace' in location:
-  		print "What are you doing?! You can't go back there, the King'll have your head for sure!"
+  			print "What are you doing?! You can't go back there, the King'll have your head for sure!"
   		
   		decision = raw_input("Do you really want to go back?\n")
 		if 'Yes' in decision:
