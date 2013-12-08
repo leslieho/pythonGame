@@ -10,8 +10,8 @@ for choice in choices_list:
     print choice
 
 while input not in choices_list:
-    input = raw_input("What is your choice? \n")
-    return input
+input = raw_input("What is your choice? \n")
+return input
 
 # INTRODUCTION LEVEL 
 player_input(prompt, choices_list);
