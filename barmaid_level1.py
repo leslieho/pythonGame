@@ -9,8 +9,8 @@ while character2['Level'] == 'barmaid_level1':
 	while character2['Location'] == 'Dungeon':
 		action = raw_input("What will you do in this dank and lonely cell? Break out or stay dank and lonely?\n")
 		if 'Stay dank and lonely' in action:
-  		print "If you wish..."
-  		import barmaid_level1.py
+  			print "If you wish..."
+  			import barmaid_level1.py
 
 		if 'Break out' in action:
 			print "Excellent!"
