@@ -11,7 +11,7 @@ for choice in choices_list:
 
 while input not in choices_list:
     input = raw_input("What is your choice? \n")
-        return input
+        print input
 
 # INTRODUCTION LEVEL 
 player_input(prompt, choices_list);
