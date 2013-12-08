@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-character2 = {'Name': 'Bar Maid', 'Gender': 'Female', 'Role': 'Serving alcoholic beverages to the king', 'Location': 'dungeon'};
+character2 = {'Name': 'Bar Maid', 'Gender': 'Female', 'Role': 'Serving alcoholic beverages to the king', 'Location': 'dungeon', 'Level': '1'};
 
 print "Chapter 1: Breakin' Bad Habits"
 
