@@ -16,10 +16,10 @@ while character2['Level'] == 'barmaid_level1':
 		if 'Break out' in action:
 			print "Excellent!"
 escape = raw_input("...But how will you break out? The way I see it, you have two options. Break down the cell door with your highly reliable beer mug or break the conveniently located window right behind you?\n")
-  if 'Break down cell door' in escape:
+if 'Break down cell door' in escape:
   	print "Alas, to no avail."
   		
-  if 'Break window' in escape:
+if 'Break window' in escape:
   	print "Somehow you've managed to break the window quietly enough not to attract any attention from the dungeon guards or your fellow dungeon mates. You escape successfully!\n" 
   
 location = raw_input("Now that you've dusted off shards of glass while remaining unharmed, where will you go? To the nearby forest, or back to the palace?\n")
