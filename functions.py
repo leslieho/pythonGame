@@ -1,5 +1,5 @@
 # INTRODUCTION LEVEL 
-player_input(prompt, choices_list);
+dict player_input(prompt, choices_list);
 player[choice] = player_input("Are you going to be a male or a female in this game?", ["Female", "Male"]) 
 input =""
 
