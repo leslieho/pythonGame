@@ -10,14 +10,14 @@ while character2['Level'] == 'barmaid_level1':
 	while character2['Location'] == 'Dungeon':
 		action = raw_input("What will you do in this dank and lonely cell? Break out or stay dank and lonely?\n")
 		if 'Stay dank and lonely' in action:
-  		print "If you wish..."
-  		import barmaid_level1.py
+  			print "If you wish..."
+  			import barmaid_level1.py
 
 		if 'Break out' in action:
-		print "Excellent!"
-  		escape = raw_input("...But how will you break out? The way I see it, you have two options. Break down the cell door with your highly reliable beer mug or break the conveniently located window right behind you?\n")
-  		if 'Break down cell door' in escape:
-  			print "Alas, to no avail."
+			print "Excellent!"
+escape = raw_input("...But how will you break out? The way I see it, you have two options. Break down the cell door with your highly reliable beer mug or break the conveniently located window right behind you?\n")
+  if 'Break down cell door' in escape:
+  	print "Alas, to no avail."
   		
   if 'Break window' in escape:
   	print "Somehow you've managed to break the window quietly enough not to attract any attention from the dungeon guards or your fellow dungeon mates. You escape successfully!\n" 
